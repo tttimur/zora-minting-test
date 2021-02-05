@@ -1,0 +1,26 @@
+Minting an NFT with Zora test
+
+Steps
+- install: `yarn`
+- compile assets and verify hashes *
+- mint `yarn mint`
+
+*(read mint.mjs + zora minting docs for more info)
+
+Things you will need for this specific test
+- Etherscan API key (https://etherscan.io)
+- Active ETH wallet with private key or mnemonic passphrase
+- Enough in your ETH wallet to pay for network and transcation fees
+- A place to host your digital media asset (centralized [are.na], decentralized [ipfs])
+
+Results
+- Opensea: https://opensea.io/assets/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/317
+- Etherscan: https://etherscan.io/tx/0xd2dd79d2d610212c253c508089ea1914ce3bf6f9b3944e6e0d6420d3b0607554
+- Transcation fee: 0.1047504 ETH ($168.27) 
+- Gas price: 0.0000002 ETH (?)
+
+Docs to dig into
+- Etherscan: https://etherscan.io
+- Ethers documentation: https://docs.ethers.io/v5/
+- Zora documentation: https://zora.engineering
+- Zora github repo: https://github.com/ourzora/zdk/blob/master/src/zora.ts
